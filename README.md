@@ -1,2 +1,17 @@
 # qr_detail_extraction
-Uses .dat file to store data of employee and generate a qr based on it, further scans the qr and checks whether the scanned qr is part of the data set
+QR Detail Extraction
+
+Extracts detailed information from QR codes using Tesseract OCR and custom logic.
+
+Motivation
+
+Sometimes you just need more than a raw QR string—you want to extract structured details like names, dates, or IDs. qr_detail_extraction wraps Tesseract OCR and post-processing routines to deliver clean, usable data.
+Features
+
+    🔍 OCR extraction of QR data via image input
+
+    🧩 Post-processing to parse structured information (e.g., dates, names)
+
+    🔁 Handles both single and batch QR extraction
+
+    📦 Easy integration into projects or pipelines
