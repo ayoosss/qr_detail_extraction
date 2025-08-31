@@ -1,4 +1,4 @@
-# qr_detail_extraction
+# QR-Code-Generator and Scanner
 QR Detail Extraction
 
 Extracts detailed information from QR codes using Tesseract OCR and custom logic.
